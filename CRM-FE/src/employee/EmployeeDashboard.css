@@ -1,0 +1,133 @@
+.dashboard-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px 0;
+}
+
+.dashboard-header {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  /* border-radius: 5px; */
+  width: 100vw;
+}
+
+.dashboard-title {
+  margin: 0;
+}
+
+.table-class{
+  width: 80vw;
+  margin: 0 auto;
+
+}
+
+.ticket-table {
+  background-color: #ffffff;
+}
+
+.ticket-table th {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+}
+
+.ticket-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  height: 400px; /* Adjust height if needed */
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
+.messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.user-message {
+  background-color: #b9d1af; /* Green for user's messages */
+  color: black; /* White text for user */
+}
+
+.other-message {
+  background-color: rgb(185, 145, 145); /* Light gray for other messages */
+  color: black; /* Black text for others */
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+}
+
+.chat-input-type{
+  width: 100%;
+}
+
+.chat-input .form-control {
+  flex-grow: 1;
+}
+
+.chat-input .btn {
+  margin-left: 10px;
+}
+
+
+/* EmployeeList.css */
+.employee-list-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.employee-table th, .employee-table td {
+  vertical-align: middle;
+}
+
+.tickets-list {
+  margin-top: 15px;
+}
+
+/* Custom modal styling */
+.modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .employee-list-container {
+    padding: 10px;
+  }
+
+  .employee-table td {
+    font-size: 0.9rem;
+  }
+}
+.message-time {
+  font-size: 0.8rem;
+  color: gray;
+  margin-top: 5px;
+}

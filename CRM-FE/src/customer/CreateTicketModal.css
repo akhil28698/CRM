@@ -1,0 +1,37 @@
+.create-ticket-modal .modal-content {
+  border-radius: 10px;
+}
+
+.create-ticket-modal .modal-header {
+  border-bottom: none;
+}
+
+.create-ticket-modal .modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.create-ticket-modal .form-control {
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.create-ticket-modal .btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.create-ticket-modal .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.create-ticket-modal .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.create-ticket-modal .btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}

@@ -1,0 +1,72 @@
+General reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('https://source.unsplash.com/1600x900/?office,workspace') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.link-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.link-box:hover {
+  transform: translateY(-5px);
+}
+
+.link-box span {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.link-box svg {
+  color: #2575fc;
+}
+
+.link-box:hover svg {
+  color: #6a11cb;
+}

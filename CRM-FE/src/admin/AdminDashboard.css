@@ -1,0 +1,39 @@
+/* AdminDashboard.css */
+.admin-dashboard {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 20px 0;
+  width: 100vw;
+}
+
+.dashboard-header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header h1, .dashboard-header h2 {
+  margin: 0;
+}
+
+.logout-icon {
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+}
+
+/* For smaller devices */
+@media (max-width: 768px) {
+  .dashboard-header {
+    text-align: center;
+  }
+
+  .logout-icon {
+    margin-top: 10px;
+  }
+}
